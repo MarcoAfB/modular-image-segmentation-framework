@@ -1,0 +1,19 @@
+# Requisitos base para o projeto de segmentação
+pyyaml
+numpy
+pillow
+matplotlib
+
+# Backend: U-Net++
+torch
+torchvision
+segmentation-models-pytorch
+
+# Backend: YOLO-seg
+ultralytics
+
+# Backend: Mask2Former (Inferencia)
+opencv-python
+
+# NOTA: Detectron2 e Mask2Former não estão listados acima devido a dependências estritas
+# de CUDA, PyTorch e OS. Por favor, instale-os manualmente conforme descrito no README.md.
